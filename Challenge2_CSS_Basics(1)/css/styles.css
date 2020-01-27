@@ -6,6 +6,9 @@ https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
 #2F3061 - blue dark
 #FFE66D - yellow
 #A1C6D7 - blue light
+#E56EEF - like pink
+#1b3852 - like darkish blue
+#f2688d - pink
 */
 
 
@@ -30,7 +33,7 @@ img {
   width: 300px;
 }
 a {
-  color: #FFE66D;
+  color: #E56EEF;
 }
 a:hover {
   text-decoration: none;
@@ -43,7 +46,7 @@ h2 {
   font-size: 45px;
 }
 h1, h2 {
-  font-family: 'Caveat', cursive;
+  font-family:'Noto Sans', sans-serif;
   font-weight: 400;
   margin: 0;
 }
@@ -74,15 +77,15 @@ h3 {
 /* Profile
 ------------------------------------*/
 header {
-  background: #2F3061;
-  color: #F7FFF7;
+  background: #1b3852;
+  color: #f2688d;
 }
 
 
 /* Projects
 ------------------------------------*/
 .projects {
-  background: #F7FFF7;
+  background: #becbf7;
 }
 .projects a {
   color: #2F3061;
@@ -117,7 +120,7 @@ header {
 /* Education
 ------------------------------------*/
 .education {
-  background-image: url(../images/joanna-kosinska-unsplash.jpg);
+  background-image: url(../images/post-it.jpg);
   background-size: cover;
   background-position: top right;
   padding-bottom: 100px;
@@ -130,8 +133,8 @@ header {
 /* Contact Info
 ------------------------------------*/
 footer {
-  background: #343434;
-  color: #F7FFF7;
+  background: #1b3852;
+  color: #f2688d;
 }
 .contact-list {
   list-style-type: none;
